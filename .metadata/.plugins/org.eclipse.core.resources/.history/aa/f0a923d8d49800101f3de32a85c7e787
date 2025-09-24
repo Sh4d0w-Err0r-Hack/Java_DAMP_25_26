@@ -1,0 +1,34 @@
+package beginner_Exercises_Unit_1;
+import java.util.*;
+public class Ejercicio_2 {
+
+	public static void main(String[] args) {
+		/*------------------------------------------------------------
+		 * 						EJERCICIO_1
+		 ------------------------------------------------------------*/
+		/*------------------------------------------------------------
+		 * Realiza un programa igual al anterior, con la 
+		 * particularidad de que ahora se debe mostrar cada número 
+		 * justo a continuación del momento en que ha sido introducido.
+		 * ------------------------------------------------------------
+		 * */
+		
+		//Usamos el metodo Scanner para interactuar con datos del usuario
+		Scanner s=new Scanner(System.in);
+		System.out.println("Introduce el primer numero (int)");
+		int numEntero=s.nextInt();
+		System.out.println("Entero: "+numEntero);
+		
+		System.out.println("Introduce el segundo numero (float)");
+		float numFlotante=s.nextFloat();
+		System.out.println("Flotante: "+numFlotante);
+		
+		System.out.println("Introduce el tercer numero (double)");
+		double numDouble=s.nextDouble();
+		System.out.println("Doubl: "+numDouble);
+		
+		//Cerramos el scanner para que no consuma memoria
+		s.close();
+	}
+
+}

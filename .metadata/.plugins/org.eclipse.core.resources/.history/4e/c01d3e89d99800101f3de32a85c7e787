@@ -1,0 +1,43 @@
+package beginner_Exercises_Unit_1;
+import java.util.*;
+public class Ejercicio_6 {
+
+	public static void main(String[] args) {
+		/*------------------------------------------------------------
+		 * 						EJERCICIO_6
+		 ------------------------------------------------------------*/
+		/*------------------------------------------------------------
+		 * Realiza un ejercicio en C para el cálculo de la cuota 
+		 * mensual de una hipóteca:
+		 * ->Euribor: Float
+		 * ->Diferencial: Float
+		 * ->Capital: Float
+		 * ->Numero de plazos: Int
+		 * ------------------------------------------------------------
+		 * */
+
+		//Usamos Scanner para que el usuario pueda introducir datos
+		Scanner s=new Scanner(System.in);
+		//Pedimos los datos:
+		System.out.println("Introduce el Euribor(float): ");
+		float Euribor=s.nextFloat();
+		System.out.println("Introduce el Diferencial(float): ");
+		float Diferencial=s.nextFloat();
+		System.out.println("Introduce la Capital(float): ");
+		float Capital=s.nextFloat();
+		System.out.println("Introduce el Numero de plazos(int): ");
+		int Plazos=s.nextInt();
+		
+		//Calculamos el Interes mensual e Interes Anual
+		double interes_Anual=(Euribor+Diferencial);
+		double interes_Mensual=(interes_Anual/12)/100;
+		//Aplicando la formula, separaremos ambos miembros de la division
+		double parte_arriba_div=(interes_Mensual*(1+(Math.pow(interes_Mensual, Plazos))));
+		double parte_abajo_div=(1+(Math.pow(interes_Mensual, Plazos)))-1;
+		
+		//Calculamos la Cuota Mensual
+		double cuota_Mensual=(Capital*());
+		
+	}
+
+}

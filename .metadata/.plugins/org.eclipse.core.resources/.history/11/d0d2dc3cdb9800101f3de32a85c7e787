@@ -1,0 +1,10 @@
+package ecuaciones_segundo_grado;
+
+public class Ecuaciones_Segundo_Grado {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

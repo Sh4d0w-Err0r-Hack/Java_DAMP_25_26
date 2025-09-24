@@ -1,0 +1,17 @@
+package beginner_Exercises_Unit_1;
+
+public class Ejercicio_6 {
+
+	public static void main(String[] args) {
+		/*------------------------------------------------------------
+		 * 						EJERCICIO_6
+		 ------------------------------------------------------------*/
+		/*------------------------------------------------------------
+		 * Realiza un ejercicio en C para el cálculo de la cuota 
+		 * mensual de una hipóteca
+		 * ------------------------------------------------------------
+		 * */
+
+	}
+
+}

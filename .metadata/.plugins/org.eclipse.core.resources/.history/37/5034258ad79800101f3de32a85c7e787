@@ -1,0 +1,26 @@
+package beginner_Exercises_Unit_1;
+import java.util.*;
+public class Ejercicio_5 {
+
+	public static void main(String[] args) {
+		/*------------------------------------------------------------
+		 * 						EJERCICIO_5
+		 ------------------------------------------------------------*/
+		/*------------------------------------------------------------
+		 * Realiza un programa en Java que pida dos variables al 
+		 * usuario, intercambie los valores de las dos variables y 
+		 * las muestre en pantalla ANTES y DESPUÉS del intercambio 
+		 * de valores
+		 * ------------------------------------------------------------
+		 * */
+		
+		//Usamos Scanner para interactuar con datos del usuario
+		Scanner s=new Scanner(System.in);
+		System.out.println("Introduce el primer numero");
+		int num1=s.nextInt();
+		System.out.println("Introduce el segundo numero");
+		int num2=s.nextInt();
+		System.out.println("Numero 1: "+num1+", Numero2: "+num2);
+	}
+
+}

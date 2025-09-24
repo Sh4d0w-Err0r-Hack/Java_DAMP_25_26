@@ -1,0 +1,18 @@
+package beginner_Exercises_Unit_1;
+
+public class Ejercicio_3 {
+
+	public static void main(String[] args) {
+		/*------------------------------------------------------------
+		 * 						EJERCICIO_3
+		 ------------------------------------------------------------*/
+		/*------------------------------------------------------------
+		 * Realiza un programa igual al anterior, con la 
+		 * particularidad de que ahora se debe mostrar cada número 
+		 * justo a continuación del momento en que ha sido introducido.
+		 * ------------------------------------------------------------
+		 * */
+
+	}
+
+}

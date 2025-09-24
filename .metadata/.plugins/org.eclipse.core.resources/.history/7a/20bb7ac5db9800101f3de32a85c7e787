@@ -1,0 +1,30 @@
+package ecuaciones_segundo_grado;
+import java.util.*;
+public class Ecuaciones_Segundo_Grado {
+
+	public static void main(String[] args) {
+		/*
+		  ------------------------------------------------------------------
+		 | 																	|
+		 | 						Ejercicio									|
+		 | 																	|
+		  ------------------------------------------------------------------
+		 *																	*
+		 * -> Realiza un programa que calcule la ecuacion de segundo grado	*
+		 * 																	*
+		 -------------------------------------------------------------------- */
+		
+		//Formula General de ec. Segundo Grado
+		System.out.println("Formula: ax²+bx+c=0");
+		//Usamos Scanner para usar datos del Usuario
+		Scanner s=new Scanner(System.in);
+		//Pedimos que introduzca el valor de a,b y c
+		System.out.println("Introduce el valor de 'a': ");
+		int a=s.nextInt();
+		System.out.println("Introduce el valor de 'b': ");
+		int b=s.nextInt();
+		System.out.println("Introduce el valor de 'c': ");
+		int c=s.nextInt();
+	}
+
+}

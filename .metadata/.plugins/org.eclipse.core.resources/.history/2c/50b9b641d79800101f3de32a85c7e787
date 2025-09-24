@@ -1,0 +1,19 @@
+package beginner_Exercises_Unit_1;
+
+public class Ejercicio_5 {
+
+	public static void main(String[] args) {
+		/*------------------------------------------------------------
+		 * 						EJERCICIO_5
+		 ------------------------------------------------------------*/
+		/*------------------------------------------------------------
+		 * Realiza un programa en Java que pida dos variables al 
+		 * usuario, intercambie los valores de las dos variables y 
+		 * las muestre en pantalla ANTES y DESPUÉS del intercambio 
+		 * de valores
+		 * ------------------------------------------------------------
+		 * */
+
+	}
+
+}

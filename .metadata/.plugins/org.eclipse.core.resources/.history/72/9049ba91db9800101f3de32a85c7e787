@@ -1,0 +1,21 @@
+package ecuaciones_segundo_grado;
+import java.util.*;
+public class Ecuaciones_Segundo_Grado {
+
+	public static void main(String[] args) {
+		/*
+		  ------------------------------------------------------------------
+		 | 																	|
+		 | 						Ejercicio									|
+		 | 																	|
+		  ------------------------------------------------------------------
+		 *																	*
+		 * -> Realiza un programa que calcule la ecuacion de segundo grado	*
+		 * 																	*
+		 -------------------------------------------------------------------- */
+		
+		//Usamos Scanner para usar datos del Usuario
+		Scanner s=new Scanner(System.in);
+	}
+
+}
