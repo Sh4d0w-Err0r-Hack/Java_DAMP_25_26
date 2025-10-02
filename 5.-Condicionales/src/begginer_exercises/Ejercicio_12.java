@@ -10,10 +10,8 @@ public class Ejercicio_12 {
 		 | 																	|
 		  ------------------------------------------------------------------
 		 *																	  *
-		 * -> Realiza un programa que tenga las siguientes opciones			  *
+		 * -> Realiza un programa que devuelva el cambio de una compra		  *
 		 * 																	  *
-		 * -> calculo de hipotenusa, superficie circunferencia, perimetro circ*
-		 * 	  area rectangulo y area triangulo                                *
 		 -------------------------------------------------------------------- */
 		
 		//Usamos Scanner para interactuar con datos del Usuario
