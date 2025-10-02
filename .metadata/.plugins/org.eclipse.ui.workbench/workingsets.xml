@@ -6,6 +6,9 @@
 <item elementID="=1.-Hello_World" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=2.-Make_a_Schedule" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=3.-Variables_Beginner_Exercises" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=4.-Input_Data" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=7.-Random_Number" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=5.-Condicionales" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1758668276214_2" label="Window Working Set" name="Aggregate for window 1758668276214"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1758669242284_3" label="Window Working Set" name="Aggregate for window 1758669242284"/>
